@@ -1,2 +1,2 @@
 # pfsense-snort
-Snort master suppress list
+Suppress list for snort in pfsense
