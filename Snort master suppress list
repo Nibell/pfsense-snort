@@ -45,8 +45,16 @@ suppress gen_id 1, sig_id 2000334
 suppress gen_id 1, sig_id 2000418
 #ET POLICY PE EXE or DLL Windows file download
 suppress gen_id 1, sig_id 2000419
+#ET CHAT Skype VOIP Checking Version (Startup)
+suppress gen_id 1, sig_id 2001595
 #ET USER_AGENTS Suspicious User Agent (agent)
 suppress gen_id 1, sig_id 2001891
+#ET CHAT Skype User-Agent detected
+suppress gen_id 1, sig_id 2002157
+#ET CHAT Google Talk (Jabber) Client Login
+suppress gen_id 1, sig_id 2002327
+#ET CHAT Google IM traffic Jabber client sign-on
+suppress gen_id 1, sig_id 2002334
 #ET POLICY iTunes User Agent
 suppress gen_id 1, sig_id 2002878
 #ET POLICY Microsoft TEREDO IPv6 tunneling
@@ -105,6 +113,8 @@ suppress gen_id 1, sig_id 2012088
 suppress gen_id 1, sig_id 2012089
 #ET POLICY Protocol 41 IPv6 encapsulation potential 6in4 IPv6 tunnel active
 suppress gen_id 1, sig_id 2012141
+#ET P2P BTWebClient UA uTorrent in use
+suppress gen_id 1, sig_id 2012247
 #ET SHELLCODE Common 0a0a0a0a Heap Spray String
 suppress gen_id 1, sig_id 2012252
 #ET P2P Libtorrent User-Agent
@@ -133,6 +143,8 @@ suppress gen_id 1, sig_id 2013927
 suppress gen_id 1, sig_id 2014518
 #ET INFO EXE - Served Attached HTTP
 suppress gen_id 1, sig_id 2014520
+#ET GAMES Nintendo Wii User-Agent
+suppress gen_id 1, sig_id 2014718
 #ET POLICY Outdated Windows Flash Version IE
 suppress gen_id 1, sig_id 2014726
 #ET P2P BitTorrent - Torrent File Downloaded
@@ -159,6 +171,8 @@ suppress gen_id 1, sig_id 2016360
 suppress gen_id 1, sig_id 2016538
 #ET POLICY Unsupported/Fake FireFox Version 2.
 suppress gen_id 1, sig_id 2016877
+#ET CURRENT_EVENTS Probably Evil Long Unicode string only string and unescape 1
+suppress gen_id 1, sig_id 2017499
 #ET MALWARE Adware.iBryte.B Install
 suppress gen_id 1, sig_id 2018194
 #ET POLICY PE EXE or DLL Windows file download HTTP
