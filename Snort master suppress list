@@ -101,6 +101,10 @@ suppress gen_id 1, sig_id 2010935
 suppress gen_id 1, sig_id 2010937
 #ET P2P Bittorrent P2P Client User-Agent (Deluge 1.x.x)
 suppress gen_id 1, sig_id 2011704
+#ET GAMES Blizzard Downloader Client User-Agent (Blizzard Downloader 2.x)
+suppress gen_id 1, sig_id 2011708
+#ET GAMES Blizzard Web Downloader Install Detected
+suppress gen_id 1, sig_id 2012170
 #ET POLICY Windows-Based OpenSSL Tunnel Outbound
 suppress gen_id 1, sig_id 2012078
 #ET SHELLCODE Possible Call with No Offset TCP Shellcode
@@ -209,6 +213,15 @@ suppress gen_id 1, sig_id 2523293
 
 ###
 
+#WEB-CLIENT libpng malformed chunk denial of service attempt
+suppress gen_id 3, sig_id 14772
+#PROTOCOL-DNS TMG Firewall Client long host entry exploit attempt
+suppress gen_id 3, sig_id 19187
+#PROTOCOL-DNS potential dns cache poisoning attempt - mismatched txid
+suppress gen_id 3, sig_id 21355
+
+###
+
 #(http_inspect) DOUBLE DECODING ATTACK
 suppress gen_id 119, sig_id 2
 #(http_inspect) BARE BYTE UNICODE ENCODING
@@ -306,10 +319,3 @@ suppress gen_id 141, sig_id 1
 suppress gen_id 141, sig_id 2
 
 ###
-
-#WEB-CLIENT libpng malformed chunk denial of service attempt
-suppress gen_id 3, sig_id 14772
-#PROTOCOL-DNS TMG Firewall Client long host entry exploit attempt
-suppress gen_id 3, sig_id 19187
-#PROTOCOL-DNS potential dns cache poisoning attempt - mismatched txid
-suppress gen_id 3, sig_id 21355
